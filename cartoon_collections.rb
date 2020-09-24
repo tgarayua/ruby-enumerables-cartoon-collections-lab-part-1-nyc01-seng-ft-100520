@@ -1,4 +1,4 @@
-
+require 'pry'
 
 def greet_characters(array)
   array.each do |element|
@@ -10,6 +10,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
+  binding.pry
   hash = Hash.new
   
   array.Each_with_index { |item, index|
