@@ -10,7 +10,6 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  binding.pry
   hash = Hash.new
   
   array.each_index { |item, index|
