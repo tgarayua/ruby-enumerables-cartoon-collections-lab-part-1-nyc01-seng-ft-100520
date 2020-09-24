@@ -13,7 +13,7 @@ def list_dwarves(array)
   binding.pry
   hash = Hash.new
   
-  array.Each_with_index { |item, index|
+  array.each_index { |item, index|
   hash[item] = index
   }
   
